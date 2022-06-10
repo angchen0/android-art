@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".SignUp">
+
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:gravity="left"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_up"
+        android:layout_marginTop="93dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="34dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:padding="20dp"
+        android:text="E-mail"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginTop="32dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:padding="20dp"
+        android:text="**********"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <EditText
+        android:id="@+id/reenterpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="45dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:padding="20dp"
+        android:text="*********"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="416dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/reenterpassword"
+        android:layout_marginTop="91dp"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:drawablePadding="@android:dimen/dialog_min_width_major"
+        android:foregroundGravity="@string/app_name"
+        android:text="Confirm"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="372dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/confirm"
+        android:layout_marginTop="-2dp"
+        android:gravity="center"
+        android:text="Already have an account"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="661dp" />
+
+</RelativeLayout>
