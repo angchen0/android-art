@@ -1,1 +1,1 @@
-# android-art
+# Fed Art Application
